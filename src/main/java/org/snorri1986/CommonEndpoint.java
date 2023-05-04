@@ -8,6 +8,11 @@ import javax.ws.rs.core.MediaType;
 @Path("/hello")
 public class CommonEndpoint {
 
+    /**
+     *
+     * Source: <a href="https://dev.to/optnc/openapi-java-annotation-for-better-api-documentation-43oe">...</a>
+     */
+
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
