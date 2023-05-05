@@ -10,7 +10,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("/hello")
+
+@Path("/hlelo")
 @Tag(name = "API", description = "First documented endpoint")
 public class CommonEndpoint {
 
